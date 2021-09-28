@@ -1,0 +1,19 @@
+{
+  "name": "esbuild-template",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "node esbuild"
+  },
+  "dependencies": {
+    "@rmwc/button": "^6.1.4",
+    "preact": "^10.5.14"
+  },
+  "devDependencies": {
+    "esbuild": "^0.13.2",
+    "esbuild-plugin-alias": "^0.1.2",
+    "esbuild-plugin-alias-path": "^0.4.0",
+    "openurl": "^1.1.1"
+  }
+}
